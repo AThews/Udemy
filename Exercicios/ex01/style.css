@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face {
+    font-family: protest;
+    src: url(./fonte/Protest_Revolution/ProtestRevolution-Regular.ttf)format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --cor-principal:rgb(31, 100, 165);
+    --cor-letras:rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-letras);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: protest;
+}
