@@ -22,9 +22,12 @@ header p {
     columns: 2 ;
 }
 
-h1 {
+#buxa {
+    width: 10em;
+}
+
+h1, h2 {
     font-family: protest;
-    font-style: italic;
     padding: 15px;
 }
 
@@ -33,10 +36,15 @@ p {
 }
 
 a {
-    color: var(--cor-letras);
+    color: rgb(128, 5, 5);
     text-decoration: none;
+    margin: 5em;
 }
 
 a:hover {
     color: brown;
+}
+
+form {
+    padding: 15px;
 }
