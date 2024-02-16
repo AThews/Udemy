@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    margin: 50px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    background-color: rgb(40, 73, 219);
+    color: rgb(182, 182, 182);
+    min-width: 200px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.link:hover {
+    background-color: rgb(77, 105, 231);
+    color: white;
+}

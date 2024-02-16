@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+
+body {
+  background-color: #061929;
+}
+
+header {
+  background-color: #032340;
+  color: #188def;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.7em;
+}
+
+#menu {
+  background-color: #06345e;
+  width: 100%;
+  height: 3em;
+  text-align: center;
+}
+
+#menu a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #06345e;
+  color: #629fd2;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding-left: 2.5em;
+  line-height: 2.2em;
+}
+
+main {
+  width: 100%;
+  height: 40em;
+}
+
+main div {
+  position: relative;
+  left: 9%;
+  width: 70%;
+  padding: 2em;
+  margin: 2em;
+  background-color: #051f34;
+  color: #629fd2;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.144) 0px 5px 15px;
+}
+
+span {
+  font-weight: bolder;
+  color: rgb(175, 175, 175);
+}
+
+article {
+  height: 21em;
+  padding-top: 7em;
+  background-color: #0c2c45;
+  color: white;
+  text-align: center;
+}
+
+article a {
+  text-decoration: none;
+  color: white;
+  background-color: #0f99b8;
+  line-height: 5em;
+  padding: 1em 9em;
+  border-radius: 10px;
+}
+
+article p {
+  min-width: 30em;
+}
+
+article a:hover {
+  background-color: #3bcff0;
+  color: rgb(46, 46, 46);
+}
+
+footer {
+  height: 3em;
+  padding-top: 2.5em;
+  background-color: #02131d;
+  color: rgb(88, 88, 88);
+  text-align: center;
+}
+
+#servicos {
+  padding-bottom: 5em;
+}
+
+#servicos h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding: 1.5em;
+}
+
+#servicos h2 {
+  color: #488cc6;
+  text-align: center;
+  margin: 1em;
+}
+
+#servicos li {
+  width: 90%;
+  margin-left: 35%;
+  color: white;
+  padding: 0.5em;
+}
